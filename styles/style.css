@@ -39,3 +39,25 @@ button {
 button:hover {
   background: #2196f3;
 }
+
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+button {
+  color: #000;
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
