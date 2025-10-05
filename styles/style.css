@@ -1,12 +1,32 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #e2094a46, #df7ca262);
-  color: #000000;
+  margin: 0;
+  overflow: hidden;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: Arial, sans-serif;
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  text-align: center;
 }
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+
+
 
 .container {
   background: rgba(233, 169, 169, 0.6);
